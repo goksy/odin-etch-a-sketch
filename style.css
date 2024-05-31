@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+   
+    text-align: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+   
+    border: 1px solid #ccc;
+} 
+.cell{
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
